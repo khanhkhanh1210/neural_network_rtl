@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "outvalid",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "myinputValid",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[8]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[9]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[10]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[11]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[12]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[13]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[14]",
+					"strict" : false
+				},
+				{
+					"name" : "myinput[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

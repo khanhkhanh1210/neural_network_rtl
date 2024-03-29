@@ -1,0 +1,10 @@
+module adder_1bit(
+	input a,b,cin,
+	output sum, c_out
+);
+always_comb begin
+	sum = a^b^cin;
+	c_out = a & b|cin&(a^b);
+end
+endmodule
+

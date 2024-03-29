@@ -1,0 +1,11 @@
+--VCS setup file
+--Mapping default work directory
+
+WORK > DEFAULT
+DEFAULT: $WORKAREA/03_verif/verif/script/work
+
+--Library Mapping EDA Vendor IP Libraries
+
+--Libraries Mapping
+
+OTHERS = $WORKAREA/03_verif/verif/script/ben_libs.setup

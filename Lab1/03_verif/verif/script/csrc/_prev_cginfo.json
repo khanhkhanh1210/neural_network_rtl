@@ -1,0 +1,148 @@
+{
+    "SIMBData": {
+        "archive": "archive.6/_7401_archive_1.a",
+        "out": "amcQwB.o",
+        "bytes": 99369
+    },
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "adder_4bit": {
+            "r5pWx_d": {
+                "bytes": 11248,
+                "mod": "adder_4bit",
+                "checksum": 0,
+                "mode": 4,
+                "out": "r5pWx_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "adder_1bit": {
+            "KaZs1_d": {
+                "bytes": 9313,
+                "mod": "adder_1bit",
+                "checksum": 0,
+                "mode": 4,
+                "out": "KaZs1_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7742,
+                "mod": "...MASTER...",
+                "checksum": 0,
+                "mode": 4,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 41343,
+                "mod": "std",
+                "checksum": 0,
+                "mode": 4,
+                "out": "reYIK_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        }
+    },
+    "CompileProcesses": [
+        "cgproc.7401.json"
+    ],
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            4
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "adder_1bit": [
+            "adder_1bit",
+            "KaZs1",
+            "module",
+            2
+        ],
+        "adder_4bit": [
+            "adder_4bit",
+            "r5pWx",
+            "module",
+            3
+        ]
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_nvcsw": 10,
+            "ru_minflt": 22272,
+            "ru_utime_sec": 0.080987000000000003,
+            "ru_stime_sec": 0.21996599999999999,
+            "ru_maxrss_kb": 66164,
+            "ru_majflt": 0,
+            "ru_nivcsw": 47
+        },
+        "CodeGen(%)": 13.829866468053408,
+        "ru_self_end": {
+            "ru_nvcsw": 11,
+            "ru_minflt": 24604,
+            "ru_utime_sec": 0.093984999999999999,
+            "ru_stime_sec": 0.28695599999999999,
+            "ru_maxrss_kb": 71572,
+            "ru_majflt": 0,
+            "ru_nivcsw": 48
+        },
+        "Frontend(%)": 86.170133531946604,
+        "ru_childs_cgstart": {
+            "ru_nvcsw": 8,
+            "ru_minflt": 3662,
+            "ru_utime_sec": 0.0099979999999999999,
+            "ru_stime_sec": 0.059990000000000002,
+            "ru_maxrss_kb": 18968,
+            "ru_majflt": 0,
+            "ru_nivcsw": 17
+        },
+        "peak_mem_kb": 222384,
+        "nMops": 890,
+        "nQuads": 360,
+        "mop/quad": 2.4722222222222223,
+        "totalObjSize": 99369,
+        "mopSpeed": 68472.072626557958,
+        "ru_childs_end": {
+            "ru_nvcsw": 9,
+            "ru_minflt": 4192,
+            "ru_utime_sec": 0.010998000000000001,
+            "ru_stime_sec": 0.074987999999999999,
+            "ru_maxrss_kb": 21312,
+            "ru_majflt": 0,
+            "ru_nivcsw": 20
+        },
+        "quadSpeed": 27696.568702877375,
+        "outputSizePerQuad": 276.02499999999998
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "adder_1bit",
+        "adder_4bit"
+    ],
+    "CurCompileUdps": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful",
+    "Misc": {
+        "daidir_abs": "/mnt/hgfs/Lab1/03_verif/verif/script/simv.daidir",
+        "cwd": "/mnt/hgfs/Lab1/03_verif/verif/script",
+        "csrc": "csrc",
+        "default_output_dir": "csrc",
+        "csrc_abs": "/mnt/hgfs/Lab1/03_verif/verif/script/csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.6"
+    }
+}
