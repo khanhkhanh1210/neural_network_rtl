@@ -1,0 +1,44 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s001: Started on Apr 03, 2024 at 21:56:42 EDT
+xrun
+	-gui
+	-timescale 1ns/1ps
+	-f /home/admin/shared/neuron/02_rtl/lab_rtl.flist
+		/home/admin/shared/neuron/02_rtl/ReLU.sv
+	/home/admin/shared/neuron/03_verif/verif/sv/testtop.sv
+	-l /home/admin/shared/neuron/03_verif/sim_result/sim.log
+Recompiling... reason: file '/home/admin/shared/neuron/02_rtl/ReLU.sv' is newer than expected.
+	expected: Wed Apr  3 11:31:12 2024
+	actual:   Wed Apr  3 21:56:40 2024
+file: /home/admin/shared/neuron/02_rtl/ReLU.sv
+	module worklib.ReLU:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		testtop
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ReLU:sv <0x3bc0ae65>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               4       4
+		Vectored wires:          3       -
+		Initial blocks:          1       1
+		Cont. assignments:       0       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.testtop:sv
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /opt/cadence/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> run
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> 

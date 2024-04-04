@@ -1,5 +1,0 @@
-s1(02Apr2024:11:05:45):  xrun /home/admin/shared/neuron/02_rtl/ReLU.sv 
-s2(02Apr2024:11:45:55):  xrun /home/admin/shared/neuron/02_rtl/ReLU.sv 
-s3(02Apr2024:11:48:07):  xrun -gui 
-s4(02Apr2024:11:48:29):  xrun -gui ReLU.sv 
-s5(02Apr2024:11:48:49):  xrun -gui ../../02_rtl/ReLU.sv 

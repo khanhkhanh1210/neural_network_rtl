@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-gui
+-timescale
+1ns/1ps
+-f
+/home/admin/shared/neuron/02_rtl/lab_rtl.flist
+/home/admin/shared/neuron/03_verif/verif/sv/testtop.sv
+-l
+/home/admin/shared/neuron/03_verif/sim_result/sim.log

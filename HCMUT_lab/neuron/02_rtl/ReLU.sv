@@ -4,8 +4,6 @@ module ReLU #(parameter
 (	input logic [data_size-1:0] din,
 	output logic [data_size-1:0] dout
 );
-always_comb begin
-	dout = din[data_size-1]? 0:dout;
-end
+	assign dout = {data_size{~din[data_size-1]}} & din;
 endmodule
 
