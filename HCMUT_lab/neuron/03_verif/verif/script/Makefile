@@ -1,5 +1,20 @@
+all: clean run syn
+#verify:
+#	xmvlog -64bit -sv -linedebug -f $(WORKAREA)/03_verif/verif/script/rtl.f \
+		-logfile $(WORKAREA)/03_verif/sim_result/rtl.log
+
+#tb: 
+#	xmsim -64bit -sv -f $(WORKAREA)/03_verif/verif/script/ben.f \
+		-logfile $(WORKAREA)/03_verif/sim_result/ben.log \
+
 run:
-	xrun -gui -timescale 1ns/1ps \
-		-f $(WORKAREA)/02_rtl/lab_rtl.flist \
-		$(WORKAREA)/03_verif/verif/sv/testtop.sv \
-		-l $(WORKAREA)/03_verif/sim_result/sim.log
+	        xrun -64bit -access +rwc -f $(WORKAREA)/03_verif/verif/script/rtl.f \
+                #	-f $(WORKAREA)/03_verif/verif/script/ben.f 
+			-l $(WORKAREA)/03_verif/sim_result/sim.log \
+			-timescale 1ns/1ps \
+
+syn: clean
+	genus -gui -f genus_shell.tcl
+
+clean:
+	rm -rf *.cmd* *.log*	

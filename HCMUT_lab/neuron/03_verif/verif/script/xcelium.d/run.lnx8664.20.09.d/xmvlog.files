@@ -2,5 +2,6 @@
 // File created by:  xrun
 // Do not modify this file
 //
+/home/admin/shared/neuron/02_rtl/rom.sv
 /home/admin/shared/neuron/02_rtl/ReLU.sv
-/home/admin/shared/neuron/03_verif/verif/sv/testtop.sv
+/home/admin/shared/neuron/02_rtl/neuron.sv

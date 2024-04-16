@@ -1,5 +1,6 @@
+// 32 bit fixed-point
 module ReLU #(parameter
-	data_size = 8
+	data_size = 32*2
 )
 (	input logic [data_size-1:0] din,
 	output logic [data_size-1:0] dout

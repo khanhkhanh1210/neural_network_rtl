@@ -1,0 +1,3 @@
+WORK > DEFAULT
+DEFAULT: $WORKAREA/03_verif/verif/script/work
+OTHERS = $WORKAREA/03_verif/verif/script/ben_libs.setup

@@ -1,6 +1,28 @@
-s1(03Apr2024:05:34:22):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s2(03Apr2024:05:35:58):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s3(03Apr2024:06:05:11):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s4(03Apr2024:06:09:31):  xrun +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s5(03Apr2024:06:09:44):  xrun +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s6(03Apr2024:06:10:06):  xrun --help 
+s1(16Apr2024:06:30:10):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s2(16Apr2024:06:32:53):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s3(16Apr2024:06:42:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s4(16Apr2024:06:43:23):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s5(16Apr2024:06:45:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s6(16Apr2024:06:46:12):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s7(16Apr2024:06:46:54):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s8(16Apr2024:06:48:59):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s9(16Apr2024:06:49:47):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s10(16Apr2024:06:50:09):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s11(16Apr2024:06:50:39):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s12(16Apr2024:06:50:55):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s13(16Apr2024:06:51:51):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s14(16Apr2024:06:52:48):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s15(16Apr2024:06:53:19):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s16(16Apr2024:07:01:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s17(16Apr2024:07:02:44):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s18(16Apr2024:07:03:07):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s19(16Apr2024:07:06:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s20(16Apr2024:07:06:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s21(16Apr2024:07:07:47):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s22(16Apr2024:07:11:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s23(16Apr2024:07:12:15):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s24(16Apr2024:07:15:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s25(16Apr2024:07:16:27):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s26(16Apr2024:07:17:13):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s27(16Apr2024:07:17:44):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s28(16Apr2024:07:19:08):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
