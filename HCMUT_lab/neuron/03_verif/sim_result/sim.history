@@ -1,89 +1,53 @@
-s1(03Apr2024:05:34:22):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s2(03Apr2024:05:35:58):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s3(03Apr2024:06:05:11):  xrun -work lab_rtl -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s4(03Apr2024:06:09:31):  xrun +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s5(03Apr2024:06:09:44):  xrun +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s6(03Apr2024:06:10:06):  xrun --help 
-s7(03Apr2024:09:44:34):  xrun +gui +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s8(03Apr2024:09:56:01):  xrun -access +r -gui +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s9(03Apr2024:09:56:26):  xrun -access +r -gui +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s10(03Apr2024:09:56:50):  xrun -access +r -gui +no_notifier +notimingcheck +nospecify -timescale=1ps/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s11(03Apr2024:10:01:15):  xrun -gui +no_notifier +notimingcheck +nospecify -access +r -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s12(03Apr2024:10:02:28):  xrun -gui +no_notifier +notimingcheck +nospecify -access +r -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s13(03Apr2024:10:07:27):  xrun -gui +no_notifier +notimingcheck +nospecify -access +r -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s14(03Apr2024:10:07:46):  xrun -gui +no_notifier +notimingcheck +nospecify -access +r -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s15(03Apr2024:10:10:05):  xrun -gui +no_notifier +notimingcheck +nospecify -access +r -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s16(03Apr2024:10:21:21):  xrun -timescale 1ns/1ps +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s17(03Apr2024:10:23:33):  xrun -gui -timescale 1ns/1ps +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s18(03Apr2024:10:33:25):  xrun -gui -timescale 1ns/1ps +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s19(03Apr2024:10:37:34):  xrun -gui -timescale 1ns/1ps +no_notifier +notimingcheck +nospecify -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s20(03Apr2024:10:39:49):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s21(03Apr2024:10:59:15):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log "-s " 
-s22(03Apr2024:11:31:19):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s23(03Apr2024:21:56:02):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s24(03Apr2024:21:56:27):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s25(03Apr2024:21:56:42):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s26(06Apr2024:01:03:00):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s27(06Apr2024:01:14:45):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s28(06Apr2024:01:15:22):  xrun -gui -timescale 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s29(06Apr2024:01:20:00):  xrun -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s30(06Apr2024:01:21:18):  xrun -gui -access +rw -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s31(06Apr2024:01:22:32):  xrun -gui -access +rw -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s32(06Apr2024:01:23:25):  xrun -gui -access +rw -timescale=1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s33(06Apr2024:01:24:00):  xrun -gui -access +rw -timescale=1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s34(06Apr2024:01:24:36):  xrun -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s35(06Apr2024:01:25:40):  xrun -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s36(06Apr2024:01:26:43):  xrun -gui -access +rw -timescale=1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s37(06Apr2024:01:27:32):  xrun -gui -access +rw -timescale=1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s38(06Apr2024:01:31:19):  xrun -gui -timescale = 1ns/1ps -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s39(06Apr2024:01:32:00):  xrun -timescale = 1ns/1ps -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s40(06Apr2024:01:32:18):  xrun +timescale=1ns/1ps -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s41(06Apr2024:01:35:09):  xrun -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s42(06Apr2024:03:14:58):  xrun ../../../02_rtl/neuron.sv 
-s43(06Apr2024:03:16:09):  xrun ../../../02_rtl/neuron.sv 
-s44(06Apr2024:03:18:36):  xrun ../../../02_rtl/neuron.sv 
-s45(06Apr2024:03:19:40):  xrun ../../../02_rtl/neuron.sv 
-s46(06Apr2024:03:24:21):  xrun -sv ../../../02_rtl/neuron.sv 
-s47(06Apr2024:03:24:35):  xrun -sv ../../../02_rtl/neuron.sv 
-s48(06Apr2024:03:28:46):  xrun -sv ../../../02_rtl/neuron.sv 
-s49(06Apr2024:03:29:24):  xrun -sv ../../../02_rtl/neuron.sv 
-s50(06Apr2024:03:30:44):  xrun -sv ../../../02_rtl/neuron.sv 
-s51(06Apr2024:03:31:37):  xrun -sv ../../../02_rtl/neuron.sv 
-s52(06Apr2024:03:31:45):  xrun -sv ../../../02_rtl/rom.sv 
-s53(06Apr2024:03:32:20):  xrun -sv ../../../02_rtl/neuron.sv 
-s54(06Apr2024:03:40:36):  xrun -sv ../../../02_rtl/neuron.sv 
-s55(06Apr2024:03:42:32):  xrun -sv ../../../02_rtl/neuron.sv 
-s56(06Apr2024:03:42:38):  xrun ../../../02_rtl/neuron.sv 
-s57(06Apr2024:03:42:56):  xrun -timescale = 1ns/1ps ../../../02_rtl/neuron.sv 
-s58(06Apr2024:03:43:09):  xrun -timescale = 1ns/1ps -f ../../../02_rtl/neuron.sv 
-s59(06Apr2024:03:43:33):  xrun -timescale = 1ns/1ps ../../../02_rtl/neuron.sv 
-s60(06Apr2024:03:44:24):  xrun -timescale = 1ns/1ps ../../../02_rtl/neuron.sv 
-s61(06Apr2024:03:44:53):  xrun ../../../02_rtl/neuron.sv 
-s62(06Apr2024:03:45:21):  xrun ../../../02_rtl/neuron.sv 
-s63(10Apr2024:04:08:31):  xrun -gui -access +rw -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s64(14Apr2024:04:03:10):  xrun -gui -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s65(14Apr2024:04:08:27):  xrun -gui -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s66(14Apr2024:04:08:37):  xrun -gui -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s67(14Apr2024:04:09:40):  xrun -gui -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
-s68(14Apr2024:04:12:43):  xrun -gui -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
-s69(14Apr2024:04:15:54):  xrun -gui -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
-s70(14Apr2024:04:33:42):  xrun -gui -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
-s71(14Apr2024:04:34:22):  xrun -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
-s72(14Apr2024:05:40:27):  xrun ../sv/testtop.sv 
-s73(14Apr2024:05:49:46):  xrun -gui "	" 
-s74(14Apr2024:05:53:36):  xrun -gui "	" 
-s75(14Apr2024:05:55:14):  xrun -gui "	" 
-s76(14Apr2024:06:00:45):  xrun -gui "	" 
-s77(14Apr2024:06:01:24):  xrun -gui "	" 
-s78(14Apr2024:06:08:02):  xrun -gui "	" 
-s79(14Apr2024:06:09:53):  xrun -gui "	" 
-s80(14Apr2024:06:43:53):  xrun -gui "	" 
-s81(14Apr2024:07:05:08):  xrun -gui "	" 
-s82(14Apr2024:07:20:09):  xrun -gui "	" 
-s83(14Apr2024:07:37:54):  xrun ../../../02_rtl/ReLU.sv 
-s84(16Apr2024:03:00:42):  xrun -gui +access+rwc -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s85(16Apr2024:03:01:08):  xrun -gui -timescale = 1ns/1ps -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log 
-s86(16Apr2024:03:01:39):  xrun -gui -timescale = 1ns/1ps 
-s87(16Apr2024:03:01:51):  xrun -timescale = 1ns/1ps 
-s88(16Apr2024:03:03:57):  xrun -gui +access+rwc -timescale = 1ns/1ps 
-s89(16Apr2024:03:05:35):  xrun -gui -f /home/admin/shared/neuron/02_rtl/lab_rtl.flist /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/10ps +access+rcw 
+s1(16Apr2024:06:30:10):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s2(16Apr2024:06:32:53):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s3(16Apr2024:06:42:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s4(16Apr2024:06:43:23):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s5(16Apr2024:06:45:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s6(16Apr2024:06:46:12):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s7(16Apr2024:06:46:54):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s8(16Apr2024:06:48:59):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s9(16Apr2024:06:49:47):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s10(16Apr2024:06:50:09):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s11(16Apr2024:06:50:39):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s12(16Apr2024:06:50:55):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s13(16Apr2024:06:51:51):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s14(16Apr2024:06:52:48):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s15(16Apr2024:06:53:19):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s16(16Apr2024:07:01:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -f /home/admin/shared/neuron/03_verif/verif/script/ben.f 
+s17(16Apr2024:07:02:44):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s18(16Apr2024:07:03:07):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s19(16Apr2024:07:06:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s20(16Apr2024:07:06:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s21(16Apr2024:07:07:47):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s22(16Apr2024:07:11:16):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s23(16Apr2024:07:12:15):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s24(16Apr2024:07:15:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s25(16Apr2024:07:16:27):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s26(16Apr2024:07:17:13):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s27(16Apr2024:07:17:44):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s28(16Apr2024:07:19:08):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s29(16Apr2024:08:33:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s30(16Apr2024:08:35:23):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s31(16Apr2024:08:37:52):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s32(16Apr2024:08:39:05):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s33(16Apr2024:08:41:14):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s34(16Apr2024:08:51:04):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s35(16Apr2024:08:53:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s36(16Apr2024:09:02:31):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s37(16Apr2024:09:03:29):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s38(16Apr2024:09:05:40):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s39(16Apr2024:11:54:23):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s40(16Apr2024:12:00:10):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s41(16Apr2024:12:00:55):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s42(16Apr2024:12:01:37):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s43(16Apr2024:12:07:24):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s44(16Apr2024:12:23:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s45(16Apr2024:12:33:14):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s46(16Apr2024:12:35:42):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s47(16Apr2024:12:37:01):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s48(16Apr2024:12:37:45):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s49(16Apr2024:12:37:53):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s50(16Apr2024:12:39:03):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s51(16Apr2024:12:39:46):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s52(17Apr2024:03:12:09):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 
+s53(17Apr2024:03:51:10):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f -l /home/admin/shared/neuron/03_verif/sim_result/sim.log -timescale 1ns/1ps 

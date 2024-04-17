@@ -14,12 +14,12 @@ logic r_en, end_weight;
 rom #(.weightfile("w_1_15.mif")) weight_rom(.r_addr(r_addr), .clk(clk), .r_en(r_en), .weight_out(weight_value));
 rom #(.weightfile("x_value.mif")) input_value(.r_addr(r_addr), .clk(clk), .r_en(r_en), .weight_out(x_value));
 
-always@(posedge clk) begin
+always@(posedge clk) begin: MAC
 	if(!end_weight)
-		y <= y + weight_out*x_value;
+		y <= y + weight_out*x_out;
 end
 
-always_comb begin
+always_comb begin: BIAS
 	y_out = y + bias;
 end
 

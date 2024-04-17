@@ -1,54 +1,29 @@
 xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	20.09-s001: Started on Apr 16, 2024 at 03:05:35 EDT
+TOOL:	xrun(64)	20.09-s001: Started on Apr 17, 2024 at 03:51:10 EDT
 xrun
-	-gui
-	-f /home/admin/shared/neuron/02_rtl/lab_rtl.flist
-		/home/admin/shared/neuron/02_rtl/rom.sv
-		/home/admin/shared/neuron/02_rtl/ReLU.sv
-	/home/admin/shared/neuron/03_verif/verif/sv/testtop.sv
+	-64bit
+	-access +rwc
+	-f /home/admin/shared/neuron/03_verif/verif/script/rtl.f
+		-f /home/admin/shared/neuron/02_rtl/lab_rtl.flist
+			/home/admin/shared/neuron/02_rtl/rom.sv
+			/home/admin/shared/neuron/02_rtl/ReLU.sv
+			/home/admin/shared/neuron/02_rtl/neuron.sv
 	-l /home/admin/shared/neuron/03_verif/sim_result/sim.log
-	-timescale 1ns/10ps
-	+access+rcw
-file: /home/admin/shared/neuron/02_rtl/ReLU.sv
-	module worklib.ReLU:sv
-		errors: 0, warnings: 0
-file: /home/admin/shared/neuron/03_verif/verif/sv/testtop.sv
-	module worklib.testtop:sv
-		errors: 0, warnings: 0
-		Caching library 'worklib' ....... Done
-	Elaborating the design hierarchy:
-	Top level design units:
-		rom
-		testtop
-xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-		worklib.ReLU:sv <0x4aeaebaf>
-			streams:   1, words:   184
-		worklib.testtop:sv <0x76730b14>
-			streams:   3, words:  1710
-	Building instance specific data structures.
-	Loading native compiled code:     .................... Done
-	Design hierarchy summary:
-		                 Instances  Unique
-		Modules:                 3       3
-		Registers:               6       6
-		Scalar wires:            3       -
-		Vectored wires:          6       -
-		Always blocks:           2       2
-		Initial blocks:          2       2
-		Pseudo assignments:      2       2
-		Simulation timescale:  1ps
-	Writing initial simulation snapshot: worklib.rom:sv
+	-timescale 1ns/1ps
+Loading snapshot worklib.neuron:sv .................... Done
 xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
-
--------------------------------------
-Relinquished control to SimVision...
-xcelium> 
 xcelium> source /opt/cadence/XCELIUM2009/tools/xcelium/files/xmsimrc
-xcelium> ^C
-xcelium> ^C
-xcelium> ^C
-xcelium> ^C
+xcelium> run
+xmsim: *W,RMEMNOF: $readmem error: open failed on file "w_1_15.mif".
+            File: /home/admin/shared/neuron/02_rtl/rom.sv, line = 15, pos = 26
+           Scope: neuron.weight_rom
+            Time: 0 FS + 0
+
+xmsim: *W,RMEMNOF: $readmem error: open failed on file "x_value.mif".
+            File: /home/admin/shared/neuron/02_rtl/rom.sv, line = 15, pos = 26
+           Scope: neuron.input_value
+            Time: 0 FS + 0
+
+xmsim: *W,RNQUIE: Simulation is complete.
 xcelium> exit
-TOOL:	xrun(64)	20.09-s001: Exiting on Apr 16, 2024 at 03:06:14 EDT  (total: 00:00:39)
+TOOL:	xrun(64)	20.09-s001: Exiting on Apr 17, 2024 at 03:51:11 EDT  (total: 00:00:01)

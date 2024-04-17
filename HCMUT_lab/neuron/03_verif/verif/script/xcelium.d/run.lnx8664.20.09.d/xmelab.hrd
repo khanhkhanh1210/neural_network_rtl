@@ -4,3 +4,5 @@
 //
 -ACCESS
 +rwc
+-timescale
+1ns/1ps

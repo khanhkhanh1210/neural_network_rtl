@@ -7,3 +7,7 @@
 +rwc
 -f
 /home/admin/shared/neuron/03_verif/verif/script/rtl.f
+-l
+/home/admin/shared/neuron/03_verif/sim_result/sim.log
+-timescale
+1ns/1ps

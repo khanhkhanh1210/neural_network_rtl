@@ -26,3 +26,5 @@ s25(16Apr2024:07:16:27):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/
 s26(16Apr2024:07:17:13):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
 s27(16Apr2024:07:17:44):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
 s28(16Apr2024:07:19:08):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s29(16Apr2024:08:33:56):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
+s30(16Apr2024:08:35:23):  xrun -64bit -access +rwc -f /home/admin/shared/neuron/03_verif/verif/script/rtl.f 
